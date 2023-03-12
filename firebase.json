@@ -1,0 +1,52 @@
+{
+    "tasks":[
+        {
+            "id":"1",
+            "nome":"arroz doce",
+            "iniciado":false,
+            "finalizado":false
+        },
+        {
+            "id":"2",
+            "nome":"arrumar casa",
+            "iniciado":false,
+            "finalizado":false
+        },
+        {
+            "id":"3",
+            "nome":"lavar roupa",
+            "iniciado":false,
+            "finalizado":false
+        },
+        {
+            "id":"4",
+            "nome":"trabalhar",
+            "iniciado":false,
+            "finalizado":false
+        },
+        {
+            "id":"5",
+            "nome":"ir a escola",
+            "iniciado":false,
+            "finalizado":false
+        },
+        {
+            "id":"6",
+            "nome":"divertir se",
+            "iniciado":false,
+            "finalizado":false
+        },
+        {
+            "id":"7",
+            "nome":"ir a igreja",
+            "iniciado":false,
+            "finalizado":false
+        },
+        {
+            "id":"8",
+            "nome":"fazer jantar",
+            "iniciado":false,
+            "finalizado":false
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Cadastrar</h1>
+    <form [formGroup]="Formulario" (ngSubmit)="submeter()" >
+        <div>
+            <input type="text" formControlName="nome" placeholder="escreva seu nome">
+            <br>
+            <span style="color:red" *ngIf="nome && nome.invalid && nome.touched">Preencha o campo</span>
+        </div>
+        <input type="text" formControlName="cpf" placeholder="escreva seu cpf">
+        <input type="email" formControlName="email" placeholder="escreva seu email">
+        <input type="password" formControlName="senha" placeholder="escreva sua senha">
+        <input type="password" placeholder="confitme sua senha">
+        <br>
+        <button [ngClass]="{'invalido':Formulario.invalid}" [disabled]="Formulario.invalid">Registrar</button>
+        <div>
+            <p>{{Formulario.invalid}}</p>
+            
+        </div>
+    </form>
+    <app-pessoas></app-pessoas>
+</div>
